@@ -1,4 +1,6 @@
 # Define an agent object
+from numpy import random
+
 class Agent:
     def __init__(self, data):
         '''TODO: add UCB
